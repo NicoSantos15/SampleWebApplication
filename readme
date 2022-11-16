@@ -1,5 +1,9 @@
 Australian Phone Number Validator.
 
+To run:
+- Download the web-app
+- Run index.html
+
 The purpose of this application is to check if the input of the user matches 
 the correct format of the Australian Phone Number.
 
