@@ -1,3 +1,4 @@
+// this function will check if the passed input is a valid number or not
 function validateNumber() {
 
     // use this regex to implement a strongly typed/precise validation
@@ -17,66 +18,62 @@ function validateNumber() {
     }
 }
 
-// function validateNSW() {
-//     const regex = /^(?:\(?(?:\+?61|0)2\)?(?:[ -]?[0-9]){7}[0-9]$/;
-//     let userInput = document.getElementById("user").value;
+// WIP
+function validateNSW() {
+    // const regex = /^(?:\(?(?:\+?61|0)2\)?(?:[ -]?[0-9]){7}[0-9]$/;
+    let userInput = document.getElementById("user").value;
 
-//     if (!regex.test(userInput)) {
-//         document.getElementById("error").style.display = "block";
-//         document.getElementById("success").style.display = "none";
+    if (!regex.test(userInput)) {
+        document.getElementById("error").style.display = "block";
+        document.getElementById("success").style.display = "none";
 
-//     } else {
-//         document.getElementById("success").style.display = "block";
-//         document.getElementById("error").style.display = "none";
-//     }
-// }
+    } else {
+        document.getElementById("success").style.display = "block";
+        document.getElementById("error").style.display = "none";
+    }
+}
 
-// function validateQL() {
-//     var regex = /^(?:\(?(?:\+?61|0)7\)?(?:[ -]?[0-9]){7}[0-9]$/;
-//     let userInput = document.getElementById("user").value;
+// WIP
+function validateQL() {
+    // var regex = /^(?:\(?(?:\+?61|0)7\)?(?:[ -]?[0-9]){7}[0-9]$/;
+    let userInput = document.getElementById("user").value;
 
-//     if (!regex.test(userInput)) {
-//         document.getElementById("error").style.display = "block";
-//         document.getElementById("success").style.display = "none";
+    if (!regex.test(userInput)) {
+        document.getElementById("error").style.display = "block";
+        document.getElementById("success").style.display = "none";
 
-//     } else {
-//         document.getElementById("success").style.display = "block";
-//         document.getElementById("error").style.display = "none";
-//     }
-// }
+    } else {
+        document.getElementById("success").style.display = "block";
+        document.getElementById("error").style.display = "none";
+    }
+}
 
-// function validateSNW() {
-//     var regex = /^(?:\(?(?:\+?61|0)8\)?(?:[ -]?[0-9]){7}[0-9]$/;
-//     let userInput = document.getElementById("user").value;
+// WIP
+function validateSNW() {
+    // var regex = /^(?:\(?(?:\+?61|0)8\)?(?:[ -]?[0-9]){7}[0-9]$/;
+    let userInput = document.getElementById("user").value;
 
-//     if (!regex.test(userInput)) {
-//         document.getElementById("error").style.display = "block";
-//         document.getElementById("success").style.display = "none";
+    if (!regex.test(userInput)) {
+        document.getElementById("error").style.display = "block";
+        document.getElementById("success").style.display = "none";
 
-//     } else {
-//         document.getElementById("success").style.display = "block";
-//         document.getElementById("error").style.display = "none";
-//     }
-// }
+    } else {
+        document.getElementById("success").style.display = "block";
+        document.getElementById("error").style.display = "none";
+    }
+}
 
-// function validateVT() {
-//     var regex = /^(?:\(?(?:\+?61|0)3\)?(?:[ -]?[0-9]){7}[0-9]$/;
-//     let userInput = document.getElementById("user").value;
+// WIP
+function validateVT() {
+    // var regex = /^(?:\(?(?:\+?61|0)3\)?(?:[ -]?[0-9]){7}[0-9]$/;
+    let userInput = document.getElementById("user").value;
 
-//     if (!regex.test(userInput)) {
-//         document.getElementById("error").style.display = "block";
-//         document.getElementById("success").style.display = "none";
+    if (!regex.test(userInput)) {
+        document.getElementById("error").style.display = "block";
+        document.getElementById("success").style.display = "none";
 
-//     } else {
-//         document.getElementById("success").style.display = "block";
-//         document.getElementById("error").style.display = "none";
-//     }
-// }
-
-// function getApi() {
-//     //get http request here
-// }
-
-// function postApi() {
-//     //post http request here
-// }
+    } else {
+        document.getElementById("success").style.display = "block";
+        document.getElementById("error").style.display = "none";
+    }
+}
