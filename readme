@@ -16,10 +16,10 @@ This will not check real-time phone numbers in Australia. An API request using R
 
 
 Future Revisions:
--Landline REGEX validation per state
+-Landline REGEX validation per state (WIP)
 -HTTP request for API helper to check realtime phone numbers in Australia (GET, POST, DELETE, EDIT).
 -Save the search in DB
 
 Optional:
-The validation have an optional checking if there is a country code or not. There is an existing commented code that could be used to check
-the input in a strongly-typed process.
+The validation have an optional checking if there is a country code or not. 
+There is an existing commented code that could be used to check the input to a strongly-typed process.
