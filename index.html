@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="app.js"></script>
+    <title>Code Test Application</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Phone Validator</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Australia</a>
+                </li>
+                <!-- This is the extension of the application to check the landline of each state -->
+                <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="./landline_nsw.html">NSW</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="./landline_ql.html">Queensland</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="./landline_sa_nt_wa.html">SA/NT/WA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="./landline_vic_tas.html">VIC/TAS</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <div class="card">
+            <div class="card-header">
+                <h2>Australian Phone Number Validator</h2>
+            </div>
+            <div class="card-body">
+                <p>Please fill up the box to check if the phone number is in correct Australian format</p>
+
+                <form action="/app.js">
+                    <input id="user" type="text" placeholder="mobile or landline no."><br><br>
+                    <input class="btn btn-info" type="submit" onclick="validateNumber()" value="Submit">
+                </form>
+            </div>
+            <div id="error" style="display: none;">
+                <h5>Not Valid</h5>
+                <div class="error">Sorry, that is not an Australian format</div>
+            </div>
+    
+            <div id="success" style="display: none;">
+                <h5>Valid</h5>
+                <div class="error">Success! You are having a great day!</div>
+            </div>
+        </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+<footer>
+    <div class="fixed-bottom">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <a class="text-dark">©2022 Clintel Systems by: Nico Santos</a>
+        </div>
+    </div>
+</footer>
+
+</html>

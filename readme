@@ -1,0 +1,21 @@
+Australian Phone Number Validator.
+
+The purpose of this application is to check if the input of the user matches 
+the correct format of the Australian Phone Number.
+
+The application is limited to verification of the format only filtering using regex.
+If the format is incorrect, the application will display "Not valid" otherwise "Valid"
+
+
+Limitations:
+This will not check real-time phone numbers in Australia. An API request using REST method will be handful to implement the feature.
+
+
+Future Revisions:
+-Landline REGEX validation per state
+-HTTP request for API helper to check realtime phone numbers in Australia (GET, POST, DELETE, EDIT).
+-Save the search in DB
+
+Optional:
+The validation have an optional checking if there is a country code or not. There is an existing commented code that could be used to check
+the input in a strongly-typed process.

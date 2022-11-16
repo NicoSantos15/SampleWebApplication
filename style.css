@@ -1,0 +1,17 @@
+.card {
+    padding: 30px;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    text-align: center;
+}
+
+.card-header {
+    background-color: lightskyblue !important;
+}
+
+.navbar-brand {
+    padding-left: 20px;    
+}
